@@ -39,7 +39,7 @@ public class Conditions : MonoBehaviour
     {
         if (A == true)
         {
-            image.SetActive(true);
+            image.SetActive(false);
             B = true;
             Debug.Log("Active");
         }
@@ -85,5 +85,7 @@ public class Conditions : MonoBehaviour
         {
             D = true;
         }
+
+        Debug.Log("auswertung:" + ((A && B)|(B && C)|(C && D)));
     }
 }
