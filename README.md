@@ -12,6 +12,11 @@ WebGL
 ### Visuals: 
 Screenshots from Unity:
 
+<div>
+<img src="./Screenshots/pic1.png" width="250">
+<img src="./Screenshots/pic2.png" width="250">
+</div>
+
 
 
 ### Project state: 
